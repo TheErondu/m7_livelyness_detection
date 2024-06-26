@@ -103,7 +103,7 @@ A call to a single line function will return a temporary path to the captured im
 <a name="exampleCode"></a>
 #### Code
 ```dart
-    final String? response =
+    final String response =
         await M7LivelynessDetection.instance.detectLivelyness(
       context,
       config: M7DetectionConfig(
@@ -121,7 +121,7 @@ A call to a single line function will return a temporary path to the captured im
         ],
         startWithInfoScreen: true,
       ),
-    );
+    ).imgPath;
 ```
 
 <a name="exampleVideo"></a>
